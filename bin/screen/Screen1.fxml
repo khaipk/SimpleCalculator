@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="screen.Screen1Controller">
+   <children>
+      <VBox layoutX="100.0" layoutY="30.0">
+         <children>
+            <HBox layoutX="100.0" layoutY="30.0">
+               <children>
+                  <VBox layoutX="100.0" layoutY="30.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="button2" layoutX="115.0" layoutY="51.0" mnemonicParsing="false" onAction="#goScreen2" prefHeight="65.0" prefWidth="300.0" text="Go Screen 2" AnchorPane.bottomAnchor="235.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="button3" layoutX="124.0" layoutY="242.0" mnemonicParsing="false" onAction="#goScreen3" prefHeight="58.0" prefWidth="300.0" text="Go Screen 3" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="242.0" />
+   </children>
+</AnchorPane>
